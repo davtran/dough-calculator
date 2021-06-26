@@ -1,0 +1,29 @@
+{
+    "turkish bread": {
+        "name": "turkish bread",
+        "flour": 500,
+        "milk": 150,
+        "water": 150,
+        "salt": 3,
+        "yeast": 10,
+        "olive oil": 45,
+        "portions": 6
+    },
+    "sourdough utility": {
+        "name": "sourdough utility",
+        "flour": 440,
+        "water": 240,
+        "salt": 3,
+        "olive oil": 45,
+        "sourdough starter": 120,
+        "portions": 6
+    },
+    "sourdough standard": {
+        "name": "sourdough standard",
+        "flour": 780,
+        "water": 550,
+        "salt": 20,
+        "sourdough starter": 120,
+        "portions": 2
+    }
+}

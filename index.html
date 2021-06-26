@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Dough Calculator</h1>
+    <h2>Conventional</h2>
+    <div class="conventional" onload="renderRecipe()">
+        <div>
+            Name:
+            <input id="name" title="Name" type="text" disabled>
+        </div>
+        <div>
+            Flour (g):
+            <input id="flour" title="Flour" type="text">
+        </div>
+        <div>
+            Total liquid (ml):
+            <input id="total-liquid" title="Flour" type="text">
+        </div>
+        <div>
+            Yeast (g):
+            <input id="yeast" title="Yeast" type="text">
+        </div>
+        <div>
+            Salt (g):
+            <input id="salt" title="Salt" type="text">
+        </div>
+    </div>
+
+    <h2>Sourdough</h2>
+    <div class="sourdough">
+        <div>
+            Name:
+            <input title="Name" type="text" disabled>
+        </div>
+        <div>
+            Flour (g):
+            <input title="Flour" type="text">
+        </div>
+        <div>
+            Total liquid (ml):
+            <input title="Flour" type="text">
+        </div>
+        <div>
+            Starter (g):
+            <input title="Yeast" type="text">
+        </div>
+        <div>
+            Salt (g):
+            <input title="Salt" type="text">
+        </div>
+    </div>
+    <button id="calculate">Calculate</button>
+
+    <script type="module" src="./recipes.json"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
